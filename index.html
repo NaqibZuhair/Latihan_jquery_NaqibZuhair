@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <script src="./assets/jquery/jquery-3.7.1.min.js"></script>
+    <title>first Jquery</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <h1>Belajar Jquery (Effects)</h1>
+        </header>
+        
+        <div class="section" id="HideShow">
+            <h2>Hide Show</h2>
+            <p>Tekan tombol untuk melihat rahasia!</p>
+            <button id="hide">Show/Hide</button>
+
+            <div id="secret" style="display:none;">
+                <img src="./assets/img/flower.jpeg" alt="Flower" width="200px" height="200px">
+                <p>This Flower is for U <3 </p>
+            </div>
+        </div>
+
+        <div class="section" id="FadeInOut">
+            <h2>Fade</h2>
+            <p>Tekan tombol dan lihat apa yang terjadi!</p>
+            <button id="fadein">Tombol ini!</button>
+
+            <div id="fadeout">
+                <div class="item" id="fade1" style="height: 100px; width: 100px;  background-color: azure;"></div>
+                <div class="item" id="fade2" style="height: 100px; width: 100px;  background-color: bisque;"></div>
+                <div class="item" id="fade3" style="height: 100px; width: 100px;  background-color: darkgrey;"></div>   
+            </div>
+            
+        </div>
+
+        <div class="section" id="Slide">
+            <h2>Slide & Stop</h2>
+        
+            <div id="slide">
+                <button id="skip">Skip</button>
+                <button id="stop">Stop</button>
+                <div class="slide-item" id="flip">Tekan ini dan lihatlah!</div>
+                <div class="slide-item" id="panel"><img src="./assets/img/slide.jpeg"></div>
+            </div>
+        </div>
+
+        <div class="section" id="Animate">
+            <h2>Animate</h2>
+            <button id="animate">Start</button>
+            <button id="stop-animate">Stop</button>
+
+            <div id="container-ball">
+                <div id="animate-ball"></div>
+            </div>
+            
+        </div>
+
+        <div class="section" id="Chaining">
+            <h2>Callback & Chaining</h2>
+            <p>Klik tombol untuk melihat!</p>
+            <button id="chainingBtn">Start</button>
+            <div id="chainingBox"></div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1EFEC;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #030303;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#content {
+    background-color: #D4C9BE;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 1500px;
+    margin: 20px;
+    margin-bottom: auto;
+}
+
+.section {
+    background-color: #123458;
+    color: #F1EFEC;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px 5px;
+}
+
+button {
+    background-color: #D4C9BE;
+    color: #123458;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #F1EFEC;
+    color: #123458;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#fadeout {
+    display: flex;
+    margin : 20px;
+}
+
+.item {
+    margin: 10px 30px;
+    display: none;
+    border-radius: 50%;
+}
+
+#slide {
+    display: flex;
+    color: #123458;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.slide-item {
+    display: block;
+    background-color: #D4C9BE;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #F1EFEC;
+    position: relative;
+}
+
+#flip {
+    width: 35%;
+}
+
+#flip:hover {
+    background-color: #F1EFEC;
+    color: #123458;
+    cursor: pointer;
+}
+
+#panel {
+    display: none;
+    overflow: hidden;
+}
+
+#container-ball {
+    width: 500px;
+    height: 300px;
+    background-color: #D4C9BE;
+    position: relative;
+    margin: 20px auto;
+    border: 2px solid #123458;
+    overflow: hidden;
+}
+
+#animate-ball {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 125px;
+    left: 225px;
+}
+
+#chainingBox {
+    width: 100px; 
+    height: 100px; 
+    background-color: #D4C9BE; 
+    margin-top: 20px;
+}
